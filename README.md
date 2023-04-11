@@ -8,6 +8,11 @@ Use the free Virus total API to check different ioc with a single powershell scr
 
 In addition, a more detailed .xlsx report will be generated.	
 
+API QUOTA (Free API):
+- Request rate:	4 lookups / min
+- Daily quota	500: lookups / day
+- Monthly quota:	15.5 K lookups / month
+
 NOTE: Due to the limitation of the free API (4 queries per minute) this script performs a delay of 17 seconds in each analysis when there are more than three samples.
 
 1- Add all iocs to the file "resources.txt"
